@@ -1,0 +1,197 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:#F2E3CE;
+}
+nav{
+    background-color:white;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    
+}
+
+img {
+   max-width: 200px;
+ }
+
+h1{
+font-family: Georgia, 'Times New Roman', Times, serif;
+margin-left: 2%;
+margin-top:2%;
+font-size:larger;
+
+}
+.Accueil{
+    margin-left:35%;
+  margin-top:2%;
+  font-size: large;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+  text-decoration:none;
+
+
+}
+.Ajoutlivre{
+    margin-left: 15%;
+    margin-top:2%;
+    font-size: large;
+    color: black;
+    text-decoration:none;
+
+    
+}
+.Deconnecter{
+    margin-left: 15%;
+    margin-top:2%;
+    font-size: large;
+    color: black;
+    text-decoration:none;
+}
+
+header{
+    z-index:0;
+    background-image: url(../img/body.png);
+    width: 100%;
+    height: 600px;
+}
+section{
+    background:white;
+    justify-content:center;
+    width: 90%;
+    height: 1600px;
+    margin-left: 5%;
+    margin-top:-30%;
+    z-index:1;
+}
+h2{
+    text-align: center;
+    font-size:x-large;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color:#796157;
+}
+h3{
+    text-align: center;
+    font-size: large;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color:#2C1810;
+}
+
+button{
+color:black;
+background-color: #D9A963;
+width: 10%;
+height: 3%;
+display:flex;
+justify-content: center;
+margin-left: 45%;
+border-radius: 5%;
+border: 0;
+}
+
+
+#Livre1{
+    background-image: url(../img/Livre1.png);
+    display: flex;
+    width: 30%;
+    height: 300px;
+}
+#Livre2{
+    background-image: url(../img/Livre2.png);
+    display: flex;
+        width: 30%;
+    height: 300px;
+    margin-top: -22%;
+    margin-left: 35%;
+}
+
+#Livre3{
+    background-image: url(../img/Livre3.png);
+    display: flex;
+    width: 30%;
+    height: 300px;
+    margin-top: -24%;
+    margin-left: 70%;
+}
+
+#Livre4{
+   background-image: url(../img/Livre4.png);
+   display: flex;
+   width:30%;
+   height: 300px;
+   margin-top: 5%;
+}
+#Livre5{
+    background-image: url(../img/Livre5.png);
+    display: flex;
+   width:30%;
+   height: 300px;
+   margin-left: 35%;
+   margin-top:-23%
+}
+#Livre6{
+    background-image: url(../img/Livre6.png);
+    display: flex;
+   width:30%;
+   height: 300px;
+   margin-left: 70%;
+   margin-top:-23%
+}
+#Livre7{
+    background-image: url(../img/Livre7.png);
+    display: flex;
+    width: 30%;
+    height: 300px;
+    margin-top:5%
+}
+#Livre8{
+    background-image: url(../img/Livre8.png);
+    display: flex;
+    width:30%;
+    height: 300px;
+    margin-left: 35%;
+    margin-top:-23%
+}
+#Livre9{
+    background-image: url(../img/Livre9.png);
+    display: flex;
+    width:30%;
+    height: 300px;
+    margin-left: 70%;
+    margin-top:-23%
+}
+#Livre10{
+    background-image:url(../img/Livre10.png);
+    display: flex;
+    width: 30%;
+    height: 300px;
+    margin-top:5%
+}
+#Livre11{
+    background-image: url(../img/Livre11.png);
+    display: flex;
+    width:30%;
+    height: 300px;
+    margin-left: 35%;
+    margin-top:-23%
+}
+#Livre12{
+    background-image: url(../img/Livre12.png);
+    display:flex;
+    width:30%;
+    height: 300px;
+    margin-left: 70%;
+    margin-top:-23%
+}
+@font-face{
+    font-family: 'libre_baskerville' ;
+    src: url(fonts/Libre_Baskerville/LibreBaskerville-Italic.ttf);
+}
+.styletext{
+    font-family: 'libre_baskerville';
+}
+#foot{
+    background-image: url(../img/Footer.png);
+    width: 100%;
+    height: 100px;
+}
